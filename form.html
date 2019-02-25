@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <title>HTML Academy: Пинк</title>
+  
+  </head>
+  
+  <body>
+
+    <header class="page-header">
+      
+      <nav class="main-nav">
+      
+        <div class="main-nav__wrapper">
+          
+          <ul class="main-nav__open" >
+
+          	<li class="main-nav__item">
+
+          	  <div class="main-nav__pink"></div>
+              
+              <div class="main-nav__close"></div>  
+          	
+          	</li>
+
+          	<li class="main-nav__item" ><a href="">Главная</a></li>
+
+          	<li class="main-nav__item" ><a href="">Фотографии</a></li>
+
+          	<li class="main-nav__item" ><a href="">Конкурс</a></li>
+
+          	<li class="main-nav__item" ><a href="">HTML Academy</a></li>
+          	
+          </ul>
+         
+        </div>
+
+        <div class="main-nav__hide" >
+          	
+	      <div class="main-nav__pink"></div>
+	              
+	      <span class="main-nav__toggler"><span></span></span>   
+
+        </div>
+
+      </nam>	
+
+    </header>	
+    
+    <main class="main-pink">
+    
+      <img src="http://placehold.it/150x100">
+     
+      <form class="form-main">
+
+      <div class="form-main__first-name ">
+
+        <span class="form-main__paragraph plea">
+
+      	Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!
+
+       </span>
+
+       <div class="form-main__item">
+
+         <label class="form-main__contact-field h2-red" for="surname-id"> Фамилия </label>
+        
+         <input class="form-main__input" type="text" name="surname" id="surname-id" value="Укажите Фамилию *">
+
+       </div>
+
+       <div class="form-main__item">  
+
+         <label class="form-main__contact-field h2-red" for="name-id"> Имя </label>
+        
+         <input class="form-main__input" type="text" name="name" id="name-id" value="Введите ваше имя *">
+
+       </div>
+  
+       <div class="form-main__item">
+
+         <label class="form-main__contact-field h2-red" for="patronymic-id"> Отчество </label>
+        
+         <input class="form-main__input" type="text" name="patronymic" id="patronymic-id" value="Ну и отчество тоже">
+
+       </div>
+  
+      </div>  
+
+        <div class="form-main__progress">
+        
+          <span class="form-main__progress-item h2-red">
+        
+            Ваши безбашенные <br>
+        
+            Достижения в путешествии 
+ 
+          </span>
+        
+        <div class="form-main__check"> 
+
+          <label class="form-main__select">
+        	
+            <input type="checkbox" name="selfie" checked>
+
+            Сделал селфи с акулой
+          
+          </label>
+
+        </div>
+
+        <div class="form-main__check">    
+
+          <label class="form-main__select">
+
+            <input type="checkbox" name="сhuck" checked>
+
+            Обгорел на пляже
+
+          </label>
+        </div>  
+
+        <div class="form-main__check">    
+
+          <label class="form-main__select">  
+
+            <input type="checkbox" name="selfie" >
+
+            Видел Чака Норриса
+  
+          </label>
+
+        </div>
+        
+        <div class="form-main__check">    
+
+          <label class="form-main__select">  
+
+            <input type="checkbox" name="souvenir" >
+
+            Накупил сувениров
+
+          </label>
+
+        </div>    
+        
+        <div class="form-main__check">
+
+          <label class="form-main__select">  
+
+            <input type="checkbox" name="tower" checked>
+
+            Удержал башню
+
+          </label>
+
+        </div>    
+        
+        <div class="form-main__check">
+
+          <label class="form-main__select">  
+
+            <input type="checkbox" name="hotel" >
+
+            Разгромил отель
+
+          </label>
+
+        </div>  
+        
+        <div class="form-main__margins">
+          
+          <h3 class="form-main__margins-item">Что-то пошло не так!</h3>
+          
+          <span class="form-main__thanks">
+
+            Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить!
+
+          </span>
+
+          <div class="form-main__close">
+            
+            <a class="form-main__close-item btn" href="">Ок</a>
+
+          </div>
+          
+        </div>
+
+        </div>  
+
+        <div class="form-main__wrapper">
+
+          <div class="form-main__tel">
+
+	          <label class="form-main__tel-item h2-red" for="tel-id"> Номер телефона </label>
+	        
+	          <input class="form-main__input" type="tel" name="tel" id="tel-id" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" value="Номер, пожалуйста" required>
+
+          </div>
+
+          <div class="form-main__mail">  
+
+	          <label class="form-main__mail-item h2-red" for="mail-id"> Адрес почты </label>
+	        
+	          <input class="form-main__input" type="mail" name="tel" id="mail-id" " required value="Введите почту *" required>
+
+          </div>  
+
+	    </div>
+        
+        <div class="form-main__app">
+        
+          <span class="form-main__app-item">
+        
+            С каким приложением <br>
+        
+            путешествовали? 
+ 
+          </span>
+
+          <div class="form-main__radio-ios">
+        
+            <label class="form-main__radio-ios-item">
+        	
+            <input type="radio" name="selfie" checked>
+
+            Pink для IOS
+          
+            </label>
+
+          </div>
+
+          <div class="form-main__radio-andr">  
+
+            <label class="form-main__radio-andr-item">
+
+            <input type="radio" name="сhuck" >
+
+            Pink на Android
+
+            </label>
+
+          </div>
+
+          <div class="form-main__radio-win">  
+
+          <label class="form-main__radio-win-item">  
+
+            <input type="radio" name="selfie" >
+
+            Windows Phone
+  
+          </label>
+
+          </div>
+
+        </div>
+
+        <div class="form-main__sent">
+          
+          <h3 class="form-main__sent-item">Ваша заявка отправлена</h3>
+          
+          <span class="form-main__thanks">
+
+          	Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.
+
+          </span>
+
+          <div class="form-main__close">
+          	
+            <a class="form-main__close-item btn" href="">Закрыть окно</a>
+
+          </div>
+        	
+        </div>
+
+        <div class="form-main__emotions">
+                    	
+          <div class="form-main__emotions-wrapper">
+          	
+            <span class="form-main__emotions-item h2-red" for="comment-id"> 
+
+              Опишите свои эмоции
+
+            </span> <br>
+            
+            <textarea class="" rows="10" cols="30">
+
+Можно прям в красках, не стесняясь в выражениях 
+
+            </textarea>
+
+            <div class="form-main__send">
+            
+              <button class="form-main__emotions-btn btn" type="submit">
+             
+                Отправить форму 
+            
+              </button>
+
+            </div>
+
+          </div>
+
+          </form>
+
+          <span class="form-main__endnote">*-Обязательные поля</span>
+         
+        </div>    
+    
+      </form>
+    
+    </main> 
+    
+    <footer class="page-footer">
+      
+      <div class="page-footer__wrapper">
+
+        <img src="http://placehold.it/150x100">
+
+        <p class="page-footer__social">
+
+          <span class="social-links">
+        	
+        	  <a class="social-links social-links--tw" href=""></a>
+
+        	  <a class="social-links social-links--fb" href=""></a>
+
+        	  <a class="social-links social-links--tl" href=""></a>
+        
+          </span>        	
+
+        </p>
+
+        <p class="page-footer__copyringht">
+      	
+      	  Разработано:
+
+      	  <a class="page-footer__link btn" href=""></a>
+
+        </p>
+      	
+        </div>	
+
+    </footer>  
+
+  </body>
+
+</html>

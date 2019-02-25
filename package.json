@@ -1,0 +1,39 @@
+{
+  "name": "video-cam",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Личный проект «video-cam»",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.x",
+    "autoprefixer": "6.7.x",
+    "grunt": "^1.0.3",
+    "grunt-browser-sync": "2.2.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-postcss": "0.8.0"
+  },
+  "scripts": {
+    "test": "editorconfig-cli",
+    "build": "grunt less && grunt postcss",
+    "start": "npm run build && grunt serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "less/**/*.less"
+  ],
+  "engines": {
+    "node": "6.10"
+  },
+  "dependencies": {
+    "boom": "^7.3.0",
+    "cryptiles": "^4.1.3",
+    "hoek": "^6.1.2"
+  },
+  "main": "Gruntfile.js",
+  "author": "",
+  "license": "ISC"
+}
